@@ -57,10 +57,14 @@
   letter-spacing: 1.5px;
 }
 /* Keep paragraphs flush on both the left and right edges. */
+
 .prose p {
-  text-align: justify;
-  text-justify: inter-word;
-  hyphens: auto;
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0 0 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
 }
 @media (max-width: 760px) {
   .hero-art {height: 315px; padding-bottom: 46px;}
